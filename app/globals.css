@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Page default */
+/* Page default — MKAI Runners dark brand */
 body {
-  background-color: #f7f4ef; /* bg-primary broken white */
-  color: #1a2e2a; /* text-primary */
+  background-color: #201f1f; /* bg-primary */
+  color: #ffffff; /* text-primary */
 }
 
 /* Pixelated image rendering for logo + sprites */
@@ -23,7 +23,7 @@ img[data-pixel="true"] {
 
 /* Pixel focus ring */
 .pixel-focus:focus-visible {
-  outline: 2px solid #2a9d8f;
+  outline: 2px solid #fe3303;
   outline-offset: 2px;
 }
 

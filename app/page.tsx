@@ -32,7 +32,7 @@ export default async function HomePage({ searchParams }: PageProps) {
         <div className="mx-auto max-w-lg px-4 py-8">
           <PixelCard className="p-6 text-center">
             <h1 className="font-pixel text-xs text-tosca-dark md:text-sm">
-              menaRun v3
+              MKAI Runners
             </h1>
             <p className="mt-4 font-pixelBody text-xl text-text-secondary">
               Belum ada event tersedia.

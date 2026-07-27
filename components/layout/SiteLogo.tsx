@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const LOGO_ASPECT_RATIO = 1;
+const LOGO_ASPECT_RATIO = 564 / 260;
 
 interface SiteLogoProps {
   height?: number;
@@ -17,12 +17,11 @@ export function SiteLogo({ height = 32, className = "" }: SiteLogoProps) {
     >
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="/images/logo-mkai.png"
-        alt="PPMKAI"
+        src="/images/logo-mkai-runners.png"
+        alt="MKAI Runners"
         width={width}
         height={height}
-        data-pixel="true"
-        className="pixel-render block max-w-none"
+        className="block max-w-none"
         style={{ height: `${height}px`, width: `${width}px` }}
       />
     </Link>

@@ -24,9 +24,9 @@ export const PixelButton = forwardRef<HTMLButtonElement, PixelButtonProps>(
 
     const variants: Record<PixelButtonVariant, string> = {
       primary:
-        "border-tosca-dark bg-tosca text-text-onTosca shadow-pixel-md hover:translate-x-px hover:translate-y-px hover:bg-tosca-light hover:shadow-[3px_3px_0_#1F7A6F] active:translate-x-0.5 active:translate-y-0.5 active:bg-tosca-dark active:shadow-pixel-sm",
+        "border-[#C42802] bg-tosca text-text-onTosca shadow-pixel-md hover:translate-x-px hover:translate-y-px hover:bg-tosca-light hover:shadow-[3px_3px_0_#C42802] active:translate-x-0.5 active:translate-y-0.5 active:bg-[#C42802] active:shadow-pixel-sm",
       secondary:
-        "border-tosca bg-bg-card text-tosca shadow-[4px_4px_0_#2A9D8F33] hover:translate-x-px hover:translate-y-px hover:shadow-[3px_3px_0_#2A9D8F33] active:translate-x-0.5 active:translate-y-0.5 active:shadow-pixel-sm",
+        "border-tosca bg-bg-card text-tosca shadow-[4px_4px_0_#FE330333] hover:translate-x-px hover:translate-y-px hover:shadow-[3px_3px_0_#FE330333] active:translate-x-0.5 active:translate-y-0.5 active:shadow-pixel-sm",
     };
 
     return (

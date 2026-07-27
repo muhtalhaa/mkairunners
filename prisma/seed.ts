@@ -36,15 +36,15 @@ async function main() {
   endDate.setDate(endDate.getDate() + 30);
 
   const demoEvent = await prisma.event.findFirst({
-    where: { nama: "Event Demo menaRun" },
+    where: { nama: "Event Demo MKAI Runners" },
   });
 
   if (!demoEvent) {
     await prisma.event.create({
       data: {
-        nama: "Event Demo menaRun",
+        nama: "Event Demo MKAI Runners",
         deskripsi:
-          "Event demo untuk testing platform menaRun. Silakan registrasi dan submit aktivitas lari Anda.",
+          "Event demo untuk testing platform MKAI Runners. Silakan registrasi dan submit aktivitas lari Anda.",
         tanggalMulai: today,
         tanggalSelesai: endDate,
         jamMulaiSubmit: "06:00",
@@ -56,7 +56,7 @@ async function main() {
 
   console.log("Seed selesai.");
   console.log("  Admin: admin@menarun.app / Admin123!");
-  console.log("  Event: Event Demo menaRun");
+  console.log("  Event: Event Demo MKAI Runners");
 }
 
 main()

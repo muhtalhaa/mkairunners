@@ -81,7 +81,7 @@ export function PixelCelebration({ isVisible, onComplete }: PixelCelebrationProp
               style={{
                 left: `${15 + i * 12}%`,
                 top: "50%",
-                backgroundColor: i % 2 === 0 ? "#2A9D8F" : "#E5A100",
+                backgroundColor: i % 2 === 0 ? "#FE3303" : "#E5A100",
               }}
             />
           ))}

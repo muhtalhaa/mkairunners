@@ -47,7 +47,7 @@ export default async function AdminDashboardPage() {
         Dashboard
       </h1>
       <p className="mt-2 font-pixelBody text-lg text-text-muted">
-        Ringkasan platform menaRun.
+        Ringkasan platform MKAI Runners.
       </p>
 
       <div className="mt-6 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">

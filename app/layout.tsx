@@ -24,11 +24,11 @@ const vt323 = VT323({
 });
 
 export const metadata: Metadata = {
-  title: "menaRun",
-  description: "Platform leaderboard event lari berbasis Strava",
+  title: "MKAI Runners",
+  description: "Platform leaderboard event lari MKAI Runners berbasis Strava",
   icons: {
-    icon: [{ url: "/images/logo.png", type: "image/png" }],
-    apple: [{ url: "/images/logo.png", type: "image/png" }],
+    icon: [{ url: "/images/logo-mkai-runners.png", type: "image/png" }],
+    apple: [{ url: "/images/logo-mkai-runners.png", type: "image/png" }],
   },
 };
 

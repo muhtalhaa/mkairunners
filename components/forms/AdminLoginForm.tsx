@@ -58,7 +58,7 @@ export function AdminLoginForm() {
         Login Admin
       </h1>
       <p className="mt-2 font-pixelBody text-lg text-text-muted">
-        Halaman ini hanya untuk administrator menaRun.
+        Halaman ini hanya untuk administrator MKAI Runners.
       </p>
 
       <form onSubmit={handleSubmit(onSubmit)} className="mt-6 flex flex-col gap-4">

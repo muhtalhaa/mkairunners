@@ -7,8 +7,8 @@ import { PixelLoader } from "@/components/ui/PixelLoader";
 export default function AdminLoginPage() {
   return (
     <main className="min-h-screen bg-bg-primary">
-      <div className="flex h-14 items-center justify-center bg-tosca md:h-16">
-        <SiteLogo height={32} />
+      <div className="flex h-14 items-center justify-center border-b-2 border-tosca bg-bg-primary md:h-16">
+        <SiteLogo height={36} />
       </div>
 
       <div className="mx-auto max-w-md px-4 py-8">
